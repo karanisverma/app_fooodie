@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "scheme": "fooodie",
+    "sdkVersion": "26.0.0",
+    "slug": "Fooodie-App-Test",
+    "name": "Test Fooodie",
+    "orientation": "portrait",
+    "icon": "./src/assets/img/logo-white.png",
+    "privacy": "public",
+    "primaryColor" : "#f17f20",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "notification": {
+      "icon": "./src/assets/img/logo-white.png",
+      "color": "#000000"
+    },
+    "splash": {
+      "backgroundColor": "#fff",
+      "image": "./src/assets/img/splash.png",
+      "resizeMode": "cover"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#f17f20",
+      "barStyle": "light-content"
+    },
+    "ios": {
+      "bundleIdentifier": "test.store.fooodie",
+      "buildNumber": "0.0.1",
+      "associatedDomains": [
+        "fooodie.store",
+        "http://35.154.40.23"
+      ],
+      "config": {
+        "googleMapsApiKey": "AIzaSyBDOkUCmZO-6ZkaJ8P8arO0Lw2HxR8tKnE"
+      }
+    },
+    "android": {
+      "package": "test.store.fooodie",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "VIBRATE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBDOkUCmZO-6ZkaJ8P8arO0Lw2HxR8tKnE"
+        }
+      }
+    }
+  },
+  "hooks": {
+    "postPublish": [
+      {
+        "file": "sentry-expo/upload-sourcemaps",
+        "config": {
+          "organization": "fooodie",
+          "project": "fooodie",
+          "authToken": "7d2d87fd68cf495997ce04feac72cb8689f64fc28a214f21b40ce468998e5553"
+        }
+      }
+    ]
+  }
+}

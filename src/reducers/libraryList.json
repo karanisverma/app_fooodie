@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "title": "What is the minimum order I can place?",
+    "description": "We accept minimum order of ₹199 or above."
+  },
+  {
+    "id": 1,
+    "title": "Is there any additional charges?",
+    "description": "Packaging is free of charge & Delivery is free for order above ₹399. ₹49 will be charged as delivery fee for order below ₹399. "
+  },
+  {
+    "id": 2,
+    "title": "What are the payment mode accepted?",
+    "description": "We are accepting Paytm and Cash on Delivery."
+  },
+  {
+    "id": 3,
+    "title": "What if I want to cancel my order?",
+    "description": "You can cancel your order within a minute. To cancel your order tap on option button in order success page."
+  },
+  {
+    "id": 4,
+    "title": "What if Fooodie contact number is not reachable?",
+    "description": "If Fooodie contact number is not reachable then you can reach us on +91 9993312277."
+  }
+]
