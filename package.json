@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "jest-expo": "26.0.0",
-    "react-native-scripts": "1.13.2",
+    "react-native-scripts": "2.0.1",
     "react-test-renderer": "16.3.0-alpha.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
@@ -26,7 +26,7 @@
     "native-base": "^2.7.1",
     "react": "16.3.0",
     "react-devtools": "^3.2.1",
-    "react-native": "~0.54.1",
+    "react-native": "~0.70.4",
     "react-native-geocoding": "^0.3.0",
     "react-native-step-indicator": "^0.0.8",
     "react-native-svg-animated-linear-gradient": "^0.1.9",
@@ -35,6 +35,6 @@
     "react-redux": "^5.0.7",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "sentry-expo": "^1.9.0"
+    "sentry-expo": "^5.0.3"
   }
 }
